@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrera</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script type="module" src="js/main.js"></script>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Registrera dig</h1>
+            <form id="registerForm">
+                <label for="newUser">Användarnamn: *</label>
+                <input type="text" name="newUser" id="newUser"><br>
+                <label for="newPassword">Lösenord: *</label>
+                <input type="password" name="newPassword" id="newPassword"><br>
+                <label for="newEmail">Epost: *</label>
+                <input type="email" name="newEmail" id="newEmail"><br>
+                <label for="newFname">Förnamn: </label>
+                <input type="text" name="newFname" id="newFname"><br>
+                <label for="newSname">Efternamn: </label>
+                <input type="text" name="newSname" id="newSname"><br>
+                <input type="submit" value="Registrera" id="registerBtn">
+            </form>
+            <span id="errorSpan"></span>
+            <p id="message">Redan medlem? <a href="login.html">Logga in!</a></p>
+        </section>
+    </main>
+        <footer>
+        <p><strong>DT207G - Laboration 4.2</strong></p>
+        <p>Kim Dudenhöfer</p>
+        <p>2025-05-11</p>
+    </footer>
+</body>
+</html>

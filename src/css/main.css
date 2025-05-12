@@ -1,0 +1,57 @@
+/* General design */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    justify-items: center;
+    margin: 0px;
+    background-color: rgb(236, 226, 223);
+}
+
+main {
+    width: 60%;
+    margin: 20px 0px;
+    box-shadow: 0px 0px 15px rgba(216, 197, 197, 0.8);
+    background-color: rgb(245, 244, 244);
+}
+
+section {
+    width: 70%;
+    padding: 20px 2%;
+    justify-self: center;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+footer {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    background-color: rgb(226, 153, 68);
+}
+
+footer > p {
+    padding-left: 2%;
+}
+
+/* Form design */
+input {
+    margin-top: 10px;
+}
+
+#submitBtn, #registerBtn {
+    margin-bottom: 20px;
+}
+
+/* Personal info design */
+#userInfo > p {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: rgb(197, 105, 0);;
+}
+
+#logOut {
+    display: block;
+    margin: 40px 0px 20px auto;
+}
