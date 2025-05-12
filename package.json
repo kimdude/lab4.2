@@ -16,6 +16,8 @@
     "parcel-reporter-static-files-copy": "^1.5.3"
   },
   "staticFiles": {
-    "staticPath": "static"
+    "copy":{
+      "staticPath": "static"
+    }
   }
 }
